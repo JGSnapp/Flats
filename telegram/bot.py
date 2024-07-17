@@ -10,7 +10,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # Замените 'YOUR_TOKEN' на ваш токен бота
-    application = Application.builder().token('7243437002:AAEevTNhxczk_5r6PyaAgI4uGvl9T2Vdkr8').build()
+    application = Application.builder().token('').build()
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
     application.run_polling()
