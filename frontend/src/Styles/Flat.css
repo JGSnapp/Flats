@@ -1,0 +1,30 @@
+.flat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #818181;
+  margin: 10px auto;
+  padding: 10px;
+  width: 95%;
+  border-radius: 15px;
+}
+
+.button {
+  width: 100%;        /* Задает ширину на всю ширину контейнера */
+  border-radius: 20px; /* Закругленные углы */
+  padding: 10px;       /* Дополнительный внутренний отступ для удобства */
+  margin: 10px 0;      /* Отступ сверху и снизу для разделения от изображения */
+  cursor: pointer;     /* Изменяет курсор на указатель при наведении */
+}
+
+  .block {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    flex-grow: 1;
+    text-align: left;
+  }

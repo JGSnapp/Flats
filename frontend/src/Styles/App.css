@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Фиксированная высота, равная высоте видимой части экрана */
+  width: 100vw; /* Ширина равна ширине видимой части экрана */
+  overflow: hidden; /* Отключаем прокрутку для всего приложения */
+  margin: 0;
+  padding: 0;
+  position: relative; /* Убедитесь, что это правило на месте */
+  background: linear-gradient(to top, rgb(0, 0, 0) 0%, #8a2be2 100%); /* Черно-сиреневый градиент снизу вверх */
+}

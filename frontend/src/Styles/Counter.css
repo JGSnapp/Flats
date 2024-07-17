@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  z-index: 1000;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.coin-image {
+  width: 20px;
+  height: 20px; 
+  background-image: url('https://d-art.space/backend/interface_images/coin.png');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  margin-right: 10px;
+}

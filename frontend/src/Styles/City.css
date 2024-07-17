@@ -1,0 +1,66 @@
+.City {
+  width: 100%; /* Занимает всю ширину родителя */
+  height: 100%; /* Занимает всю высоту родителя */
+  overflow-y: auto; /* Добавляет вертикальную прокрутку */
+}
+
+.District {
+  width: 100%;
+  height: 100%;
+  background-color: #0c0c72; /* Более тёмный синий для лучшего контраста */
+  color: #ffffff; /* Белый текст для читаемости */
+}
+
+.HousesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden; /* Убедимся, что прокрутка по горизонтали отключена */
+}
+
+.pixel-art {
+  image-rendering: pixelated; /* Chrome, Opera */
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: crisp-edges; /* Safari */
+}
+
+.button-invisible {
+  background-color: transparent;
+  border: none;
+  font-size: 18px; /* Увеличенный размер шрифта */
+  display: block;
+  object-fit: contain; /* Убедимся, что изображения надлежаще подогнаны */
+  image-rendering: pixelated; /* Chrome, Opera */
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: crisp-edges; /* Safari */
+}
+
+.button-invisible img {
+  display: block;
+  object-fit: contain; /* Убедимся, что изображения надлежаще подогнаны */
+  image-rendering: pixelated; /* Chrome, Opera */
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: crisp-edges; /* Safari */
+}
+
+button {
+  padding: 10px; /* Добавление отступов для улучшения взаимодействия */
+  cursor: pointer; /* Указатель курсора, чтобы подсказать о кликабельности */
+}
+
+button:disabled {
+  color: #777777; /* Серый текст для отключённых кнопок */
+  cursor: not-allowed; /* Курсор в форме запрета для отключённых кнопок */
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #0c0c72;
+  color: #ffffff;
+}

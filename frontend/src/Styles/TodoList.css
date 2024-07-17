@@ -1,0 +1,17 @@
+.todo-list {
+  position: absolute;
+  top: 80px; /* Высота Counter */
+  bottom: 50px; /* Высота Navbar */
+  width: 100%;
+  overflow-y: auto; /* Добавляем прокрутку только для этого элемента */
+}
+ 
+.todo-item {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
